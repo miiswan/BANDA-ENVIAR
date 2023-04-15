@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=PT+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  background-color: rgb(255, 255, 145);
+}
+.img {
+  background-image: url("./img/menos-e-mais-.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+}
+
+.title {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  margin-top: 1rem;
+}
+
+.sobre {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+}
+
+.musicas-fav {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.foto1 {
+  display: flex;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.musica1 {
+  padding-left: 10px;
+  font-size: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+button {
+  margin-top: 8px;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 5px;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: left;
+}
+
+.name1 {
+  display: flex;
+  justify-content: left;
+
+  font-size: 14px;
+}
+
+.coracao1 {
+  width: 25px;
+}
+
+.play1 {
+  width: 25px;
+}
+
+.foto2 {
+  display: flex;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.musica2 {
+  padding-left: 10px;
+  font-size: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+button {
+  margin-top: 8px;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 5px;
+}
+
+.btn2 {
+  display: flex;
+  justify-content: left;
+}
+
+.name2 {
+  display: flex;
+  justify-content: left;
+
+  font-size: 14px;
+}
+
+.coracao2 {
+  width: 25px;
+}
+
+.play2 {
+  width: 25px;
+}
+
+.foto3 {
+  display: flex;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.musica3 {
+  padding-left: 10px;
+  font-size: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-top: 1rem;
+
+}
+
+button {
+  margin-top: 8px;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 5px;
+}
+
+.btn3 {
+  display: flex;
+  justify-content: left;
+}
+
+.name3 {
+  display: flex;
+  justify-content: left;
+
+  font-size: 14px;
+}
+
+.coracao3 {
+  width: 25px;
+}
+
+.play3 {
+  width: 25px;
+}
+
+.foto4 {
+  display: flex;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.musica4 {
+  margin-top: 1rem;
+  padding-left: 10px;
+  font-size: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+button {
+  margin-top: 8px;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 5px;
+}
+
+.btn4 {
+  display: flex;
+  justify-content: left;
+}
+
+.name4 {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-size: 14px;
+}
+
+.coracao4 {
+  width: 25px;
+}
+
+.play4 {
+  width: 25px;
+}
+
+.todasasmusicas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.h {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.img1 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.clipe1 {
+  font-size: 15px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.img2 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.clipe2 {
+  font-size: 15px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.img3 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.clipe3 {
+  font-size: 14px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.img4 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.clipe4 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.todososclipes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape {
+  margin: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: blue;
+}
